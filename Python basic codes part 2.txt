@@ -1,0 +1,46 @@
+import math
+from math import floor
+
+#calculate the circumference of the circle
+
+radius= float(input("Enter the radius for the circle: "))
+result= 2*(math.pi)*radius
+print(f"the circumference is: {result}")
+
+
+#calculate the area of the circle
+radius= float(input("Enter the radius: "))
+result= (math.pi)*pow(radius,2)
+print(f"the area is:{result}")
+a=round(result)
+print(f"the area in rouned figure is: {a}")
+
+
+
+
+#find the hypothesis of the triangle
+a=float(input("Enter the side A: "))
+b=float(input("Enter the side B: "))
+
+result=math.sqrt(pow(a,2)+pow(b,2))
+print(f"the hypothesis is: {round(result)}")
+
+
+#perimter of the triangle
+#p=a+b+c
+
+a=input("Enter the value for A: ")
+b=input("Enter the value for b: ")
+c=input("Enter the value for c: ")
+result=a+b+c
+print(f"the perimeter of the triangle is: {result}")
+
+
+
+#area of the triangle
+#a=1/2*b*h
+b=float(input("Enter the value for b: "))
+h=float(input("Enter the value for h: "))
+a=1/2*b*h
+
+print(f"the area of the triangle is: {round(a)}")
